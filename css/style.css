@@ -1,0 +1,7 @@
+body{
+    background-color:rgb(53, 50, 50);
+}
+.rounded-circle{
+    position: fixed;
+    left:100px;
+}
