@@ -1,0 +1,153 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="rjfcss/form.css">
+    <title>Document</title>
+</head>
+<body>
+    <nav class="navbar navbar-expand-sm bg-dark navbar-dark fixed-top">
+        <div class="container-fluid">
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a class="nav-link" href="#section1">LOG-IN</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#section2">OUR SURVEY</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#section3">QUESTION</a>
+            </li>
+          </ul>
+        </div>
+    </nav>
+    <div id="section1" class="container-fluid bg-primary text-white" style="padding:100px 20px;">
+        <div class="container">
+            <h1 class="text-center">Survey Form</h1>
+            <form>
+              <div class="form-group">
+                <label for="name">Name:</label>
+                <input type="text" class="form-control" id="name" placeholder="Enter your name" required>
+              </div>
+              <div class="form-group">
+                <label for="email">Email:</label>
+                <input type="email" class="form-control" id="email" placeholder="Enter your email" required>
+              </div>
+              <div class="form-group">
+                <label for="age">Age:</label>
+                <input type="number" class="form-control" id="age" placeholder="Enter your age" required>
+              </div>
+            </form>
+            <div>
+              <ul class="pagination">
+                  <li class="page-item"><a class="page-link"  href="#section2">Next</a></li>
+                </ul>
+            </div>
+          </div>
+    </div>
+    <div id="section2" class="container-fluid bg-secondary text-white" style="padding:100px 20px;">
+      <h1 class="text-center">BSIT Student Survey</h1>
+            <div class="container">
+                <div class="form-check">
+                  <p class="p">1.What is your current year of study in the BSIT program?</p>
+                  <input type="radio" class="form-check-input" id="radio1" name="optradio" value="option1" checked >a. First year
+                  <label class="form-check-label" for="radio1"></label>
+                </div>
+                <div class="form-check">
+                  <input type="radio" class="form-check-input" id="radio2" name="optradio" value="option2">b. Second year
+                  <label class="form-check-label" for="radio2"></label>
+                </div>
+                <div class="form-check">
+                  <input type="radio" class="form-check-input" name="optradio" value="option3">c. Second year
+                  <label class="form-check-label"></label>
+                </div>
+            </div>
+            <div class="container">
+                <div class="form-check">
+                  <p class="p1">2.How would you rate the overall quality of the BSIT program at your institution?</p>
+                  <input type="radio" class="form-check-input" id="radio1" name="optradio" value="option1" checked >a. Excellent
+                  <label class="form-check-label" for="radio1"></label>
+                </div>
+                <div class="form-check">
+                  <input type="radio" class="form-check-input" id="radio2" name="optradio" value="option2">b.  Good
+                  <label class="form-check-label" for="radio2"></label>
+                </div>
+                <div class="form-check">
+                  <input type="radio" class="form-check-input" name="optradio" value="option3">c. Average
+                  <label class="form-check-label"></label>
+                </div>
+            </div>
+            <div class="container">
+              <div class="form-check">
+                <p class="p1">3.Which specialization track within the BSIT program are you pursuing?</p>
+                <input type="radio" class="form-check-input" id="radio1" name="optradio" value="option1" checked >a. Software development
+                <label class="form-check-label" for="radio1"></label>
+              </div>
+              <div class="form-check">
+                <input type="radio" class="form-check-input" id="radio2" name="optradio" value="option2">b.  Cybersecurity
+                <label class="form-check-label" for="radio2"></label>
+              </div>
+              <div class="form-check">
+                <input type="radio" class="form-check-input" name="optradio" value="option3">c. Data science
+                <label class="form-check-label"></label>
+              </div>
+          </div>
+          <div class="container">
+            <div class="form-check">
+              <p class="p1">4.How satisfied are you with the curriculum and course offerings in the BSIT program?</p>
+              <input type="radio" class="form-check-input" id="radio1" name="optradio" value="option1" checked >a. Very satisfied
+              <label class="form-check-label" for="radio1"></label>
+            </div>
+            <div class="form-check">
+              <input type="radio" class="form-check-input" id="radio2" name="optradio" value="option2">b.  Satisfied
+              <label class="form-check-label" for="radio2"></label>
+            </div>
+            <div class="form-check">
+              <input type="radio" class="form-check-input" name="optradio" value="option3">c. Neutral
+              <label class="form-check-label"></label>
+            </div>
+        </div>
+        <div class="container">
+          <div class="form-check">
+            <p class="p1">5.Have you participated in any internships or cooperative education opportunities related to your BSIT studies?</p>
+            <input type="radio" class="form-check-input" id="radio1" name="optradio" value="option1" checked >a. Yes, multiple internships
+            <label class="form-check-label" for="radio1"></label>
+          </div>
+          <div class="form-check">
+            <input type="radio" class="form-check-input" id="radio2" name="optradio" value="option2">b.  Yes, one internship
+            <label class="form-check-label" for="radio2"></label>
+          </div>
+          <div class="form-check">
+            <input type="radio" class="form-check-input" name="optradio" value="option3">c. No, but I plan to in the future
+            <label class="form-check-label"></label>
+          </div>
+      </div>
+      <div class="container">
+        <div class="form-check">
+          <p class="p1">6.How well do you think the BSIT program has prepared you for a career in the IT industry?</p>
+          <input type="radio" class="form-check-input" id="radio1" name="optradio" value="option1" checked >a. Very well prepared
+          <label class="form-check-label" for="radio1"></label>
+        </div>
+        <div class="form-check">
+          <input type="radio" class="form-check-input" id="radio2" name="optradio" value="option2">b.  Well prepared
+          <label class="form-check-label" for="radio2"></label>
+        </div>
+        <div class="form-check">
+          <input type="radio" class="form-check-input" name="optradio" value="option3">c. Moderately prepared
+          <label class="form-check-label"></label>
+        </div>
+        <div>
+          <ul class="pagination">
+              <li class="page-item"><a class="page-link"  href="#section3">Next</a></li>
+            </ul>
+        </div>
+    </div>
+  </div>
+    <div id="section3" class="container-fluid bg-secondary text-white" style="padding:100px 20px;">
+        
+    </div>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+  </body>
+</html>
