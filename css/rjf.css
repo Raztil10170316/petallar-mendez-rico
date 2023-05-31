@@ -19,7 +19,7 @@ box-shadow: 0 0 10px #c5bbbb,
 
 
 .masthead{
-    background-image:url(images/wallpaper.jpg) ;
+    background-image:url(images/wallpaper.jpg);
     background-size: cover;
  
 }
@@ -40,7 +40,7 @@ box-shadow: 0 0 10px #c5bbbb,
 
 
 #portfolio{
-    background-image:url(images/wallpaper.jpg) ;
+    background-image:url(images/wallpaper.jpg);
     background-size: cover;
 }
 .portfolio1{
